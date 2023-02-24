@@ -90,7 +90,7 @@ hdmi_cvt=480 320 60 1
 hdmi_group=2
 hdmi_mode=87
 display_rotate=0
-dtoverlay=tinylcd35,touch
+dtoverlay=tinylcd35,rotate=270,speed=48000000,touch,touchgpio=23 # MKS TS35
 ```
 `CTRL+X` to exit, and press `Y` to confirm changes to the file.
 
